@@ -50,18 +50,26 @@ button.navbutton{
     background-color: white;
 }
 
-header{
-    padding-top: 40px;
-    padding-left: 5%;
+header {
+    margin-top: 40px;
+    margin-left: 5%;
     font-size: 100px;
     font-weight: bold;
 }
-p{
+p {
     font-size: 40px;
-    padding-left: 5%;
+    margin-left: 5%;
+}
+
+a {
+    font-size: 40px;
 }
 
 .link{
     color: #0000EE;
     text-decoration: underline;
+}
+
+.m {
+    margin-left: 5%;
 }
