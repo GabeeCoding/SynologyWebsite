@@ -73,3 +73,22 @@ a {
 .m {
     margin-left: 5%;
 }
+
+@keyframes spinkf {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+    animation-iteration-count: infinite;
+    animation-name: spinkf;
+    animation-duration: 5s;
+}
+
+img {
+    margin-top: 15px;
+}
