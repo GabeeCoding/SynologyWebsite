@@ -1,19 +1,43 @@
 <html lang="en">
 <head>
-    <title>Website</title>
+    <title>Synology NAS</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <script src="app.js"></script>
 </head>
-<body>
-    <nav>
-		<label class="logo">Synology</label>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="support.html">Support</a></li>
-			<li><button class="navbutton" onclick="onClickLogin()">Login</button></li>
-		</ul>
-	</nav>
-	<img src="thinking.png" class="m spin"/>
+<body id="body">
+    <main>
+		<section class="glass">
+			<div class="dashboard">
+				<div class="user">
+					<img src="/images/user.jpg" class="userimg" alt="User image">
+					<h3>User</h3>
+				</div>
+				<div class="links">
+					<div class="link">
+						<a href="./index.html">Home</a>
+					</div>
+					<div class="link">
+						<a href="./about.html">About</a>
+					</div>
+					<div class="link">
+						<a href="./support.html">Support</a>
+					</div>
+				</div>
+				<div class="login">
+					<button onclick="onClickLogin()">Login to Synology</button>
+				</div>
+			</div>
+			<div class="content">
+				<h1 id="TitleElement">Home Page</h1>
+				<div id="ContentDiv">
+					<img src="./images/thinking.png" class="spin" style="width: 200px; height: 200px;">
+					<p>Welcome to the home page.</p>
+					<p>The site has been changed to glass to look nicer and be more compatible with small devices.</p>
+					<p>To login, press the blue button at the bottom left of the page, or click <a href="#" onclick="onClickLogin()">here.</a></p>
+
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
